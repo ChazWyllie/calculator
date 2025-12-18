@@ -1,5 +1,9 @@
 # Core dependencies (none required for basic functionality)
 
+# GUI dependencies (optional)
+flask>=2.0.0         # For web-based GUI
+PyQt5>=5.15.0        # For modern desktop GUI (optional)
+
 # Development dependencies
 pytest>=7.0
 pytest-cov>=3.0

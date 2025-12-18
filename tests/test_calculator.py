@@ -2,6 +2,11 @@
 
 import unittest
 import math
+import sys
+from pathlib import Path
+
+# Add the project root to the path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.calculator import Calculator
 from src.enums import OperationType

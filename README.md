@@ -63,13 +63,74 @@ pip install advanced-calculator
 
 ## Usage
 
-### Interactive Mode
+### Graphical User Interface (GUI) - Recommended ⭐
+
+#### Web GUI (Browser-based, Works Everywhere!)
+
+The recommended way to use the calculator. Works in any browser on any platform.
+
+```bash
+# Install Flask (first time only)
+pip install flask
+
+# Run the web GUI
+python main.py web
+```
+
+Then open your browser to **http://localhost:5000**
+
+**Features:**
+- Beautiful, modern interface
+- Responsive design (works on mobile/tablet)
+- Tabbed interface: Basic, Functions, Constants, History
+- Keyboard shortcuts:
+  - Enter: Calculate
+  - Escape: Clear input
+  - Backspace: Delete last character
+- All mathematical functions and constants available
+- Calculation history with color-coded results
+
+#### Desktop GUI - Tkinter (Built-in)
+
+```bash
+python main.py gui
+# or
+python gui.py
+```
+
+**Features:**
+- Tabbed interface with multiple tabs
+- Color-coded displays
+- Calculation history
+- Keyboard shortcuts
+- No additional dependencies needed*
+
+*Note: On some systems (like Apple Silicon Macs), tkinter may need to be installed separately.
+
+#### Desktop GUI - PyQt5 (Modern, Polished)
+
+```bash
+# Install PyQt5 (first time only)
+pip install PyQt5
+
+# Run the GUI
+python main.py pyqt5
+```
+
+**Features:**
+- Modern, professional styling
+- Color-themed buttons and displays
+- Responsive interface
+- Beautiful animations
+- Best performance on modern systems
+
+### Interactive Menu Mode
 
 ```bash
 python main.py
 ```
 
-This launches an interactive menu where you can:
+A terminal-based interactive menu where you can:
 1. Calculate expressions
 2. View calculation history
 3. Clear history
