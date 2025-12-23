@@ -63,7 +63,7 @@ pip install advanced-calculator
 
 ## Usage
 
-### Graphical User Interface (GUI) - Recommended ⭐
+### Graphical User Interface (GUI) - Recommended
 
 #### Web GUI (Browser-based, Works Everywhere!)
 
@@ -308,23 +308,6 @@ calc.calculate("")                 # "Error: Empty expression provided."
 calc.calculate("(2+3")             # "Error: Unbalanced parentheses."
 calc.calculate("2 @ 3")            # "Error: Invalid characters in expression."
 calc.calculate("sqrt(-1)")         # "Error: ValueError - ..."
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Author
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
 ## Acknowledgments
 
